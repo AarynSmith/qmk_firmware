@@ -87,7 +87,7 @@ BL_TOGG, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT,
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, ADJUST,  KC_MFFD, KC_VOLD, KC_VOLU, KC_MPLY
 ),
 
-/* Lower
+/* Adjust
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
  * |        | Reset  |        |        |        |        |        |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
