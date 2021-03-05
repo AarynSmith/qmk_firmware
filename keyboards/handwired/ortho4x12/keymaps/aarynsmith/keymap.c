@@ -130,8 +130,8 @@ QMK,     KC_LCTL, KC_LALT, KC_LGUI, LOWER,   SpFun,  SpFun,  RAISE,   KC_LEFT, K
 [_SPACEFN] = LAYOUT_ortho_4x12(
     KC_PSCR, XXXXXXX, KC_UP,   XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC_SLEP,
     XXXXXXX, KC_LEFT, KC_DOWN, KC_RIGHT, XXXXXXX, XXXXXXX, XXXXXXX, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, XXXXXXX,
-    XXXXXXX, KC_MRWD, KC_MPLY, KC_MFFD,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC_BRIU,
-    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, _______, _______, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU,  KC_BRID
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC_BRIU,
+    XXXXXXX, KC_MRWD, KC_MPLY, KC_MFFD,  XXXXXXX, _______, _______, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU,  KC_BRID
 ),
 
 /* QMK
@@ -142,7 +142,7 @@ QMK,     KC_LCTL, KC_LALT, KC_LGUI, LOWER,   SpFun,  SpFun,  RAISE,   KC_LEFT, K
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
  * |        |        |        |        |        |        |        |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
- * |        |        |        |        |        |        |        |        |        | BR Dwn |  BR Up |        |
+ * |        |        |        |        |        |        |        |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
  */
 [_QMK] = LAYOUT_ortho_4x12 (
