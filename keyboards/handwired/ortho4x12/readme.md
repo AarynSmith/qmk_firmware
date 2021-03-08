@@ -1,6 +1,7 @@
 # Ortho 4x12
 
-A compact 40% (12x4) ortholinear keyboard kit inspired in the Planck made by jotix.
+A compact 40% (12x4) ortholinear keyboard inspired in the Planck made by Jack Humbert.
+Default keymap is a minimal 12x4 setup with no extras.
 
 Keyboard Maintainer: [AarynSmith](https://github.com/aarynsmith)  
 Hardware Supported: Arduino Pro Micro  

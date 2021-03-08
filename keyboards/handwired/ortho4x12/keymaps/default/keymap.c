@@ -91,17 +91,17 @@ BL_TOGG, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT,
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
  * |        | Reset  |        |        |        |        |        |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
- * |        |        |        | AU off |  AU on |        |       |        |        |        |        |        |
+ * |        |        |        |        |        |         |       |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
- * |        |        |       | Mu on  | Mu off |         |        |        |        |        |        |        |
+ * |        |        |        |        |        |         |        |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
  * |        |        |        |        |        |        |        |        |        |        |        |        |
  * +--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
  */
 [_ADJUST] = LAYOUT_ortho_4x12 (
     XXXXXXX, RESET,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-    XXXXXXX, XXXXXXX, XXXXXXX, AU_OFF,  AU_ON,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-    XXXXXXX, XXXXXXX, XXXXXXX, MU_ON,   MU_OFF,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
 ),
 };
