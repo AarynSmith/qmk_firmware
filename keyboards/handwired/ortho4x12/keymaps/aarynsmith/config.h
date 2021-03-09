@@ -5,16 +5,23 @@
 #undef  PRODUCT
 #define PRODUCT         Aaryn_Ortho_4x12
 
+#undef MATRIX_ROWS
+#undef MATRIX_COLS
 #undef MATRIX_ROW_PINS
 #undef MATRIX_COL_PINS
-/* pro_micro pin-out
-    Rearranged to accommodate speaker on B5
-*/
-//                        RXI  2   3   4
-#define MATRIX_ROW_PINS { D2, D1, D0, D4 }
-//                         5   6   7   8  10  16  14  15  A0  A1  A2  A3
-#define MATRIX_COL_PINS { C6, D7, E6, B4, B6, B2, B3, B1, F7, F6, F5, F4 }
-#define AUDIO_PIN B5
+
+/* key matrix size */
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 6
+
+/* pro_micro pin-out */
+//                        RXI  2   3   4   6   7
+#define MATRIX_COL_PINS { D2, D1, D0, D4, D7, E6 }
+//                        A3, A2, A1, A0, 15, 14, 16, 10
+#define MATRIX_ROW_PINS { F4, F5, F6, F7, B1, B3, B2, B6 }
+
+#define AUDIO_PIN C6
+#define AUDIO_PIN_ALT B5
 #define RGB_DI_PIN D3
 
 #define RGBLED_NUM 10
