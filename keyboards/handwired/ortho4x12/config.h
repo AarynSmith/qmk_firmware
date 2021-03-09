@@ -19,8 +19,8 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xDEAD
-#define PRODUCT_ID      0xBEEF
+#define VENDOR_ID       0x4B1D
+#define PRODUCT_ID      0xC0DE
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Handmade
 #define PRODUCT         4x12
